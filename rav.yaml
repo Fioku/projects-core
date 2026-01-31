@@ -1,0 +1,7 @@
+scripts:
+  server:
+    - cd backend && python manage.py runserver 8001
+  makemigrations:
+    - cd backend && python manage.py makemigrations
+  migrate:
+    - cd backend && python manage.py migrate
